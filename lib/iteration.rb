@@ -22,7 +22,14 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   
+  new_array = []
   
+  for i in 0...src.length do
+    str = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
+    new_array.push(str)
+  end
+  
+  new_array
 end
 
 def total_even_pairs(src)
