@@ -11,7 +11,7 @@ def join_ingredients(src)
   
   for i in 0...src.length do
     str = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
-    new_array << str
+    new_array.push(str)
   end
   
   new_array
