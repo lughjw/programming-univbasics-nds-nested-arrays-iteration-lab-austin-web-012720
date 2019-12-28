@@ -14,7 +14,6 @@ def join_ingredients(src)
     new_array.push(str)
   end
   
-  puts new_array
   new_array
 end
 
