@@ -25,8 +25,7 @@ def find_greater_pair(src)
   new_array = []
   
   for i in 0...src.length do
-    str = "I love #{src[i][0]} and #{src[i][1]} on my pizza"
-    new_array.push(str)
+    new_array.push(src[i].max)
   end
   
   new_array
